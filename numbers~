@@ -1,0 +1,36 @@
+Exercise: Maximum
+
+arr.sort!.last
+
+Exercise: Subtracting Out The Sugar
++
+
+Exercise: Your Favorite and Mine, Fibonacci!
+
+Exercise: Happy Numbers
+
+def happy_number? num
+  return true if num==1
+  new_num = 0;
+  while (num > 0) do
+    num, mod = num.divmod(10)
+    new_num+=mod**2
+  end
+  begin
+    happy_number?(new_num)
+  rescue SystemStackError
+    return false
+  end
+end
+
+
+Exercise: Prime Factors
+
+def prime_factors(num)
+  require "prime"
+  primes = []
+  Prime.each{|prime| primes << prime if num % prime ==0 ; break if prime >(num/2) }
+  primes
+end
+
+

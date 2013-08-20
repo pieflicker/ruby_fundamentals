@@ -1,0 +1,12 @@
+Exercise: Related keys of Hash
+
+ select{|k,v| args.include? v}.keys
+ 
+
+
+
+Exercise: The Little Hash Key that Could
+
+def key_for_min_value(hash)
+hash.key (hash.values.min_by {|a| a})
+end

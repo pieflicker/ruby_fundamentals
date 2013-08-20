@@ -1,0 +1,11 @@
+Exercise: Bigger Element
+items.find { |item| item.even? }
+
+
+Exercise: Array Item Removal
+&[:b,:q]
+
+Exercise: Version Sort
+
+
+Exercise: Implement Array#flatten

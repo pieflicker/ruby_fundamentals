@@ -9,6 +9,6 @@ is_an_experienced_ruby_programmer =
   ! (candidate.age < 15 || candidate.applied_recently?)
 
 Exercise: Ternary Operator
-no idea how this works
+ ? "Irish" : "Not Irish"
 
 

@@ -1,0 +1,55 @@
+Exercises: Getters and Setters
+
+  attr_accessor 
+
+
+Exercise: Class Test
+
+"bar"
+
+
+Exercise: Queue Continuum
+
+  def initialize(arr)
+  @arr = arr
+end
+def pop(*idx)
+  @arr.shift *idx
+end
+def push(elem)
+  @arr.push(*elem) == @arr
+end
+def to_a
+  @arr
+end
+
+
+
+Exercise: Baby Got Stacks
+
+class Stack
+  def initialize(stack)
+    @stack = stack
+end
+
+def pop(*idx)
+    result = @stack.pop(*idx)
+    return result.reverse if result.is_a? Array
+    result
+end
+
+def push(items)
+    @stack.push(*items) == @stack
+end
+
+def to_a
+    @stack
+end
+
+def to_a
+  @stack
+end
+
+
+
+
